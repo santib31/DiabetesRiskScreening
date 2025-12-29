@@ -3,7 +3,7 @@ The objective of this project is to evaluate whether self-reported health, lifes
 
 ## 📁 Dataset
 
-- Source: [Kaggle - Diabw](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+- Source: [Diabetes risk screening dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
 ## 🛠 Tools Used
 

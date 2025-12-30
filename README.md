@@ -1,13 +1,19 @@
 # Diabetes risk screening
-The objective of this project is to evaluate whether self-reported health, lifestyle, and demographic indicators collected through a large population survey can be used to identify individuals at increased risk of diabetes.
+The objective of this project is to evaluate whether self-reported health, lifestyle, and demographic indicators collected through a large population survey can be used to identify
+individuals at increased risk of diabetes. To that aim, two supervised classification models were selected for this analysis: Logistic Regression as an interpretable baseline, and 
+CatBoost Classifier as a gradient boosting model well suited for datasets with a high proportion of categorical variables.
 
 ## 📁 Dataset
 
 - Source: [Diabetes risk screening dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
+All preprocessing steps (values encoding and handling of missing values or duplicated rows) are fully reproducible and implemented in the notebook.
+At the end of the preprocessing pipeline, a cleaned dataset is exported as a CSV file for downstream modeling.  
+This file is intentionally not included in the repository to keep it lightweight and to avoid versioning derived data.
+
 ## 🛠 Tools Used
 
-- **Google Colab** for data cleaning, visualization and machine learning modeling (Logistc regression and CatBoost)
+- **Google Colab** for data cleaning, visualization and machine learning modeling (Logistc regression and CatBoost classifier)
 
 ## 🔍 Key Insights
 
@@ -17,14 +23,13 @@ The objective of this project is to evaluate whether self-reported health, lifes
 
 ## 📎 Files
 
-- `Hotel_Bookings.ipynb`: main notebook with all cleaning steps, plots, and insights.
-- `Cleaned_hotel_bookings.csv`: processed dataset used for interactive dashboard generation.
-- `Hotel bookings - report.pdf`: descriptive report from the analysis.
+- `Diabetes_risk_prediction.ipynb`: main notebook with all cleaning steps, plots, and insights.
+- `Diabetes risk prediction - report.pdf`: descriptive report from the analysis.
 
 ## 🚀 How to Run
 
-- View the notebook directly in GitHub: [`Hotel_Bookings.ipynb`](./Hotel_Bookings.ipynb)
-- Or open it in Google Colab to run it interactively: [Open In Colab](https://colab.research.google.com/drive/1dP5EWc7Bt-bFV1ESSgzswU5m8QdBLyxE?usp=sharing)
+- View the notebook directly in GitHub: [`Diabetes_risk_prediction.ipynb`](./Diabetes_risk_prediction.ipynb)
+- Or open it in Google Colab to run it interactively: [Diabetes risk prediction notebook](https://colab.research.google.com/drive/1Du8zQ7McMuiiVN3Nw97EM3nAamekvxB9?usp=sharing)
 
 
 ## 🙋‍♂️ About Me
